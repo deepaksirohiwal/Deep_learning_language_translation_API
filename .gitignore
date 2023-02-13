@@ -1,0 +1,4 @@
+translation.db
+__pycache__
+*.pyc
+myenv

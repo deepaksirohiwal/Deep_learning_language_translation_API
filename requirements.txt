@@ -1,0 +1,7 @@
+fastapi #to build the api
+uvicorn #to run the api
+pydantic #for data validation
+peewee #to interact with the database
+transformers #to translate
+sentencepiece #use by transformer to tokenize the input
+torch
