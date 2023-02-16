@@ -23,10 +23,10 @@ To use the Language Translation API, send a POST request to the endpoint `/trans
 Use the returned `task_id` to send a  GET request to the endpoint `/results`
 
 **Here's an example request:**
-![](gifs\Animation.gif)
+![](https://github.com/deepaksirohiwal/Deep_learning_language_translation_API/gifs/Animation.gif)
 
 **The API will respond with a JSON object containing the translated text:**
-![](gifs\request_responsejpg.jpg)
+![](https://github.com/deepaksirohiwal/Deep_learning_language_translation_API/gifs/request_responsejpg.jpg)
 
 ## Supported Languages and Models
 The Language Translation API supports multiple languages and trained on <a href="https://huggingface.co/t5-small">`t5-small`</a> model. This model can be replaced by more powerfull <a href="https://huggingface.co/google/flan-t5-xxl">t5-base</a> and <a href="https://huggingface.co/t5-large">t5-large</a>. Here's a list of currently supported languages and their corresponding language codes:
